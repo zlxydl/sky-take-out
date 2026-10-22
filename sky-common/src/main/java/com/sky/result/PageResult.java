@@ -1,5 +1,6 @@
 package com.sky.result;
 
+import com.sky.entity.Employee;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,6 +18,6 @@ public class PageResult implements Serializable {
 
     private long total; //总记录数
 
-    private List records; //当前页数据集合
+    private List<Employee> records; //当前页数据集合
 
 }
